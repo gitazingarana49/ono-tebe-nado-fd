@@ -14,7 +14,7 @@
       <nav class="header_menu">
         <ul class="header_links_list">
           <li class="header_links_list_item header_links_list_item_no_bullit">
-            <a href="#main" class="header_link_active">главная</a>
+            <a href="#main" class="header_link header_link_active">главная</a>
           </li>
           <li class="header_links_list_item">
             <a class="header_link" href="#lots">посмотреть лоты</a>
@@ -31,15 +31,14 @@
           />
         </a>
         <address class="address">
-          <a class="tel_link" href="tel:+9 999 555 5555">+9 999 555 5555</a>
-          <a class="mailto_link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <a class="header_link_info" href="tel:+99995555555">+9 999 555 5555</a>
+          <a class="header_link_info" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p class="address_post">наб. Принсенграхт 263- 265, Амстердам</p>
         </address>
       </nav>
     </header>
     <main>
     <section class="cover" id="main">
-      <div class="cover_overlay">
         <h1 class="cover_title">
           <span class="aligned_text_left">оно</span>
           <span class="aligned_text_center">теб<span class="letter_gap">е</span></span>
@@ -51,34 +50,33 @@
           <h2 class="cover_description_text">
             Аукцион вещей, в которые никто не верил
           </h2>
-          <button class="bet_button">Сделать ставку</button>
+          <button class="bet_button" type="button">Сделать ставку</button>
         </div>
-      </div>
+        <div class="cover_overlay"></div>
     </section>
     <section class="lots" id="lots">
       <h2 class="lots_title">Лоты</h2>
       <ul class="lots_card_list">
         <li class="lots_card_list_item">
-          <article class="card card_type_film">
-            <a class="card_link" href="#">
+          <a class="card_link" href="#">
+           <article class="card card_type_film">
               <h3 class="card_title">
                 Фильм режиссёра, который бросил киношколу
               </h3>
-            </a>
             <p class="card_text">
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
               ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
             </p>
             <div class="cover_overlay"></div>
-          </article>
+           </article>
+         </a>
         </li>
         <li class="lots_card_list_item">
+           <a class="card_link" href="#">
           <article class="card card_type_book">
-            <a class="card_link" href="#">
               <h3 class="card_title">
                 Книга, где описан один скучный день из жизни рекламного агента
               </h3>
-            </a>
             <p class="card_text">
               Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
               переходами на древнеанглийский. В ней одновременно рассказывается
@@ -88,14 +86,14 @@
             </p>
             <div class="cover_overlay"></div>
           </article>
+          </a>
         </li>
         <li class="lots_card_list_item">
+          <a class="card_link" href="#">
           <article class="card card_type_picture">
-            <a class="card_link" href="#">
               <h3 class="card_title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
               </h3>
-            </a>
             <p class="card_text">
               Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
               похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
@@ -104,6 +102,7 @@
             </p>
             <div class="cover_overlay"></div>
           </article>
+          </a>
         </li>
       </ul>
       <a class="lots_look_more_link">посмотреть больше</a>
@@ -136,15 +135,15 @@
     </section>
     </main>
     <footer class="footer">
-      <nav class="footer_menu">
         <address class="address footer_address_box">
-          <a class="tel_link" href="tel:+9 999 555 5555">+9 999 555 5555</a>
-          <a class="mailto_link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <a class="footer_link_info" href="tel:+9 9995555555">+9 999 555 5555</a>
+          <a class="footer_link_info" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p class="address_post">наб. Принсенграхт 263- 265, Амстердам</p>
         </address>
+        <nav class="footer_menu">
         <ul class="footer_menu_list">
           <li class="footer_menu_list_item">
-            <a class="footer_menu_link_active" href="#main">главная</a>
+            <a class="footer_menu_link footer_menu_link_active" href="#main">главная</a>
           </li>
           <li class="footer_menu_list_item">
             <a class="footer_menu_link" href="#lots">посмотреть лоты</a>
